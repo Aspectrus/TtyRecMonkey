@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace FrameGenerator2.Extensions
+namespace FrameGenerator.Extensions
 {
     public static class TextWriteExtensions
     {

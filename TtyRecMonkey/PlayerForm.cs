@@ -13,7 +13,6 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
 using Window_Display;
-using SlimDX.Windows;
 using System.Threading.Tasks;
 
 namespace TtyRecMonkey
@@ -69,6 +68,7 @@ namespace TtyRecMonkey
                 var files = open.FileNames;
                 using (open) { }
                 open = null;
+
                 DoOpenFiles(files);
             });
             mt.SetApartmentState(ApartmentState.STA);

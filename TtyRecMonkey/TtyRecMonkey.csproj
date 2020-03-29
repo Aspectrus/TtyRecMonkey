@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TtyRecMonkey</RootNamespace>
     <AssemblyName>TtyRecMonkey</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -75,13 +75,13 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86">
-      <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.7.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -118,16 +118,16 @@
       <Project>{86b588bf-9b47-4071-8162-3a2a29bb8fef}</Project>
       <Name>Character</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FrameGenerator\FrameGenerator.csproj">
-      <Project>{56debc93-b053-4652-996f-81e3bb120df8}</Project>
+    <ProjectReference Include="..\FrameGenerator3\FrameGenerator.csproj">
+      <Project>{b8c26062-fef8-408d-9495-47cad47e0b74}</Project>
       <Name>FrameGenerator</Name>
     </ProjectReference>
     <ProjectReference Include="..\InputParse\InputParse.csproj">
       <Project>{3a5ca5d2-f282-4044-9943-2a0900fe0f72}</Project>
       <Name>InputParse</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PuttySharp\PuttySharp.csproj">
-      <Project>{6ECD1D84-437E-40A0-832D-C5D06762A6F0}</Project>
+    <ProjectReference Include="..\PuttySharp2\PuttySharp.csproj">
+      <Project>{1b30b492-396d-4e73-9e2a-105406062aee}</Project>
       <Name>PuttySharp</Name>
     </ProjectReference>
     <ProjectReference Include="..\Window_Display\Window_Display.csproj">

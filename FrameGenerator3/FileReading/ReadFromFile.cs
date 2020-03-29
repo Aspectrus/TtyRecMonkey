@@ -4,7 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 
-namespace FrameGenerator2.FileReading
+namespace FrameGenerator.FileReading
 {
     public static class ReadFromFile
     {
