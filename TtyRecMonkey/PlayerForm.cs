@@ -80,6 +80,7 @@ namespace TtyRecMonkey
             
          
             var streams = TtyrecToStream(files);
+                
             ttyrecDecoder = new TtyRecKeyframeDecoder(80, 24, streams, delay, MaxDelayBetweenPackets);
             PlaybackSpeed = +1;
             Seek = TimeSpan.Zero;
