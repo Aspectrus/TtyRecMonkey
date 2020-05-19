@@ -75,7 +75,7 @@ namespace FrameGenerator
 
         public SKBitmap GenerateImage(TerminalCharacter[,] chars, int consoleLevel = 1)
         {
-            //return DrawFrame(new Model());
+            return DrawFrame(new Model());
             if (chars != null)
             {
 
